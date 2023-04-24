@@ -7,7 +7,7 @@ subtitle: <b>Machine learning enthusiast</b>
 profile:
   align: right
   image: mypic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
     <p style="text-align: center">Tehran, Iran</p>
     <p></p>
