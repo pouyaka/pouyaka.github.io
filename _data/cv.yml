@@ -2,96 +2,107 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Pouya Karimiandehaghi
     - name: Date of Birth
-      value: 14th March 1879
+      value: 14th Novamber 1995
     - name: Languages
-      value: English, German
+      value: English, Persian
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.Sc. | Health Systems Engineering
+      institution: Amirkabir University of Technology (Tehran Polytechnic)
+      year: 2018-2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - <b>Thesis:</b> Human pose estimation for elderly care
+        - <b>GPA:</b> 4.0/4.0 (19.03/20)
+    - title: B.Sc. | Industrial Engineering
+      institution: Amirkabir University of Technology (Tehran Polytechnic)
+      year: 2014-2018
       description:
-        - Description 1.
-        - Description 2.
+        - <b>Thesis:</b> Simulation of dosage and frequency of Aspirin intake based on Markov chain
+        - <b>GPA:</b> 3.43/4.0
+        - <b>Last two years GPA:</b> 3.75/4.0 (17.66/20)
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research assistant
+      institution: Iranian Research Institute for Information Science and Technology
+      year: 2021-2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - <b>Supervisor:</b> Prof. Fakhrzadeh
+        - conducted research on segmentation of histology images using deep learning
+    - title: Master's student
+      institution: Amirkabir University of Technology
+      year: 2018-2021
       description:
-        - Description 1.
-        - Description 2.
+        - <b>Supervisors:</b> Prof. Ahmadi, Prof. Jalalimanesh
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: TA | Fuzzy sets in decision making and planning (graduate course)
+      institution: Industrial Engineering Department, Amirkabir University of Technology
+      year: Spring 2020
+      description:
+        - <b>Supervisor:</b> Dr gamasaee
+        - Holding tutorials on Matlab basics and fuzzy library in Matlab
+        - Managing online discussion group for student queries
+    - title: TA | Introduction to simulation (undergraduate course)
+      institution: Industrial Engineering Department, Amirkabir University of Technology
+      year: 2019, Spring 2020
+      description:
+        - <b>Supervisor:</b> Prof. Ahmadi
+        - Holding tutorials on Matlab basics and simulation examples coding in Matlab and Arena
+        - Grading assignments and Managing online discussion group for student queries
+
+- title: Professional Experience
+  type: time_table
+  contents:
+   - title: product manager
+     institution: Habiox (Intelligent physiotherapy assistant)
+     year: 03/2017-12/2018
+     description:
+       - Worked in a team and led the group for making a software with Kinect for patients who need physiotherapy exercises
+   - title: intern
+     institution: Iranian Research Institute for Information Science and Technology
+     year: 06/2018-09/2018
+     description:
+       - Analysis of static work using discomfort recording with Kinect
+       - Programming a Matlab code that analyze posture by OWAS method and input of Kinect
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: 2018
+      items:
+        - member of <b>”Excepted talents”</b> at Amirkabir University of Technology in Masters period and receiving grant
+        - <div style="text-align:justify">Ranked <b>5th</b> in 23th Iranian students scientific olympiad in industrial engineering containing optimization,probability theory and engineering statistics (<a href="https://drive.google.com/file/d/17V-NyrIdu3nv2G1qxddLZZ5-EB9qVMaK/view?usp=share_link">persian certificate</a>)</div>
+        - Ranked among <b>top 1 percentage</b> in national graduate entrance exam of industrial engineering
+    - year: 2014
+      items:
+        - Ranked among <b>top 1 percentage</b> in national undergraduate entrance exam
+
+- title: Test Scores
+  type: list
+  contents:
+    - <b>TOEFL</b> 104 - Reading:29 Listening:28 Speaking:23 Writing:24(15th October 2022)
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Computer vision
       items:
-        - Description 1.
-        - Description 2.
+        - Human pose estimation
+        - Medical imaging
+    - title: Machine learning
+      items:
+        - optimization algorithms
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Sports</u>  Football (soccer), Basketball, Table tennis.
+    - <u>Hobbies</u>  watching movies, reading books, solving puzzels
