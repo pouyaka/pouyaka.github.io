@@ -185,6 +185,9 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://www.spiedigitallibrary.org/journals/journal-of-medical-imaging/volume-10/issue-3/037501/Deep-learning-based-method-for-segmenting-epithelial-layer-of-tubules/10.1117/1.JMI.10.3.037501.short" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
             <a href="https://github.com/pouyaka/tube_segmentation" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
@@ -193,7 +196,26 @@
               <span class="__dimensions_badge_embed__" data-doi="10.1117/1.JMI.10.3.037501" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>There is growing concern that male reproduction is affected by environmental chemicals. One way to determine the adverse effect of environmental pollutants is to use wild animals as monitors and evaluate testicular toxicity using histopathology. Automated methods are necessary tools in the quantitative assessment of histopathology to overcome the subjectivity of manual evaluation and accelerate the process. We propose an automated method to process histology images of testicular tissue. Segmenting the epithelial layer of the seminiferous tubule is a prerequisite for developing automated methods to detect abnormalities in tissue. We suggest an encoder-decoder fully connected convolutional neural network (F-CNN) model to segment the epithelial layer of the seminiferous tubules in histological images. Using ResNet-34 modules in the encoder adds a shortcut mechanism to avoid the gradient vanishing and accelerate the network convergence. The squeeze &amp; excitation (SE) attention block is integrated into the encoding module improving the segmentation and localization of epithelium. We applied the proposed method for the 2-class problem where the epithelial layer of the tubule is the target class. The f-score and IoU of the proposed method are 0.85 and 0.92. Although the proposed method is trained on a limited training set, it performs well on an independent dataset and outperforms other state-of-the-art methods. The pretrained ResNet-34 in the encoder and attention block suggested in the decoder result in better segmentation and generalization. The proposed method can be applied to testicular tissue images from any mammalian species and can be used as the first part of a fully automated testicular tissue processing pipeline. The dataset and codes are publicly available on GitHub.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">10.1117/1.JMI.10.3.037501</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Fakhrzadeh, Azadeh and Karimian, Pouya and Meyari, Mahsa and Hendriks, Cris L. Luengo and Holm, Lena and Sonne, Christian and Dietz, Rune and Sp{\"o}rndly-Nees, Ellinor}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Deep learning-based method for segmenting epithelial layer of tubules in histopathological images of testicular tissue}}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{10}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Medical Imaging}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{3}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{SPIE}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{037501}</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{segmentation, deep learning, histological image, seminiferous tubules, Image segmentation, Tissues, Education and training, Data modeling, RGB color model, Histopathology, Convolution, Cross validation, Deep learning, Network architectures}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1117/1.JMI.10.3.037501}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1117/1.JMI.10.3.037501}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
         </div>
       </div>
 </li></ol>
@@ -316,7 +338,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2023 Pouya  Karimian. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: May 27, 2023.
+Last updated: May 30, 2023.
       </div>
     </footer>
 
