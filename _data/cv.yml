@@ -43,6 +43,11 @@
 - title: Teaching Experience
   type: time_table
   contents:
+    - title: Instructor | Fall school on AI
+      institution: Iranian Research Institute for Information Science and Technology
+      year: Fall 2023
+      description:
+        - Holding tutorials on Python basics, Numpy, Pandas, Matplotlib, TensorFlow, and Keras
     - title: TA | Fuzzy sets in decision making and planning (graduate course)
       institution: Industrial Engineering Department, Amirkabir University of Technology
       year: Spring 2020
@@ -89,6 +94,7 @@
   type: list
   contents:
     - <b>TOEFL</b> 104 - Reading:29 Listening:28 Speaking:23 Writing:24(15th October 2022)
+    - <b>GRE</b> 325 - Quantitative Reasoning:168 Verbal Reasoning:157 (27th November 2023)
 
 - title: Academic Interests
   type: nested_list
@@ -96,10 +102,12 @@
     - title: Computer vision
       items:
         - Human pose estimation
-        - Medical imaging
+        - Medical image analysis
     - title: Machine learning
       items:
-        - optimization algorithms
+        - optimization
+        - trustworthy ML
+        - robust ML
 
 - title: Other Interests
   type: list
