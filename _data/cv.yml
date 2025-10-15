@@ -50,12 +50,12 @@
   contents:
     - title: Teaching assistant | Data Intensive Computing (graduate course)
       institution: CSE Department, SUNY at Buffalo
-      year: Fall 2024
+      year: Spring 2025
       description:
         - Holding weekly office hours to assist students with course material and assignments
     - title: Teaching assistant | Introduction to Machine Learning (graduate course)
       institution: CSE Department, SUNY at Buffalo
-      year: Fall 2024
+      year: Fall 2024 / Fall 2025
       description:
         - Holding weekly office hours to assist students with course material and assignments
         - wrote a python script to automate the grading of programming assignments on Autolab
