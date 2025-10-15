@@ -11,6 +11,11 @@
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D. | Computer Science
+      institution:  SUNY at Buffalo
+      year: 2024-Present
+      description:
+        - Focusing on trustworthy machine learning with applications in medical domain
     - title: M.Sc. | Health Systems Engineering
       institution: Amirkabir University of Technology (Tehran Polytechnic)
       year: 2018-2021
@@ -43,6 +48,17 @@
 - title: Teaching Experience
   type: time_table
   contents:
+    - title: Teaching assistant | Data Intensive Computing (graduate course)
+      institution: CSE Department, SUNY at Buffalo
+      year: Fall 2024
+      description:
+        - Holding weekly office hours to assist students with course material and assignments
+    - title: Teaching assistant | Introduction to Machine Learning (graduate course)
+      institution: CSE Department, SUNY at Buffalo
+      year: Fall 2024
+      description:
+        - Holding weekly office hours to assist students with course material and assignments
+        - wrote a python script to automate the grading of programming assignments on Autolab
     - title: Instructor | Fall school on AI
       institution: Iranian Research Institute for Information Science and Technology
       year: Fall 2023
